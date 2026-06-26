@@ -1,0 +1,46 @@
+{
+  "total_rows": 503,
+  "valid_rows": 500,
+  "duplicate_rows": 3,
+  "missing_by_column": {
+    "filial_id": 0,
+    "filial_name": 0,
+    "service_type": 0,
+    "period": 0,
+    "revenue": 0,
+    "operations_count": 0,
+    "region": 0
+  },
+  "outlier_count": 5,
+  "numeric_profile": {
+    "filial_id": {
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 5.392,
+      "median": 5.0,
+      "std": 2.988008096503344,
+      "q25": 3.0,
+      "q75": 8.0
+    },
+    "revenue": {
+      "min": 4004.26,
+      "max": 983101.3126840881,
+      "mean": 35935.188847838275,
+      "median": 26319.519999999997,
+      "std": 81276.82924935746,
+      "q25": 16488.8275,
+      "q75": 38043.4075
+    },
+    "operations_count": {
+      "min": 59.0,
+      "max": 1997.0,
+      "mean": 1033.374,
+      "median": 1037.0,
+      "std": 569.2619084083613,
+      "q25": 547.75,
+      "q75": 1514.25
+    }
+  },
+  "validation_error_count": 0,
+  "validation_errors_sample": []
+}

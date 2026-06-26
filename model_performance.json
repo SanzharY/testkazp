@@ -1,0 +1,27 @@
+{
+  "model": "RandomForestRegressor",
+  "cv_method": "KFold(n_splits=5)",
+  "n_samples": 23,
+  "features": [
+    "filial_id",
+    "month",
+    "quarter",
+    "year",
+    "revenue_lag1",
+    "revenue_lag2"
+  ],
+  "r2_mean": 0.6058,
+  "r2_std": 0.2376,
+  "mae_mean": 33180077.78,
+  "mae_std": 27683458.56,
+  "rmse_mean": 56960507.98,
+  "rmse_std": 57297545.83,
+  "feature_importances": {
+    "filial_id": 0.0352,
+    "month": 0.0,
+    "quarter": 0.0,
+    "year": 0.0,
+    "revenue_lag1": 0.4779,
+    "revenue_lag2": 0.4869
+  }
+}
